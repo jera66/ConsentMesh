@@ -1,0 +1,60 @@
+# ================================
+# ConsentMesh
+# Git Ignore Configuration
+# ================================
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Testing
+TestResults/
+playwright-report/
+
+# JetBrains
+.idea/
+
+# Azure
+.azure/
+
+# Secrets
+secrets/
+appsettings.Production.json
+
+# Certificates / keys
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.temp
